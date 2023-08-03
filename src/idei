@@ -1,0 +1,19 @@
+1. Pentru tipul de joc cand nu alegi sa joci folosind numpad ul, pune in centrul fieacarei celule de pozitie cate
+o cifra pentru ai ajuta pe jucatori sa inteleaga ce pozitie sa aleaga si sa se introduca.
+DONE!
+2. Integreaza aplicarea de comenzi in joc, idei de comenzi:
+    -sa faci in asa fel sa poti juca singur(pozitiile pentru jucatorul 2 se for alege cu random)
+    -sa ti se ofere diferite informatii:
+        -lista de jucatori DONE
+        -clasament DONE
+        -cel mai bun jucator  DONE
+
+
+
+BUG FIX: Ca sa rezolvi problema cu nicknameurile multiple care nu se indexeaza la leaderboard:
+    -ori faci in asa fel incat sa citesti din fiecare configuratie de nume si sa incrementezi scorul
+    -ori salvezi in baza de date cate un nume si scorul sau(problema cand un alt jucator va vrea sa foloseasca un
+                                                            nickname deja existent)
+    -GLOCHEAZA FOLOSIREA COMENZILOR LA PLAYER 2
+
+
